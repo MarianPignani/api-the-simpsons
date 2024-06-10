@@ -14,7 +14,7 @@ const Item = (props) => {
 
   return (
     <div className='contenedor-item'>
-        <img src={simpsons} alt="Los Simpsons" className='simpsons-img2' />
+        <img src={simpsons} alt="Los Simpsons" className='simpsons-img2'/>
         <div className="contenedor-btn">
           <button className="btnInicio" onClick={back}>Volver al inicio</button>
         </div>
