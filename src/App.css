@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Luckiest+Guy&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fondo {
+    background-color: rgb(143, 202, 204);
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.simpsons-img {
+    width: 600px;
+    text-align: center;
+    padding-top: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contenedor-btn {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.boton-desbloqueo {
+    height: 40px;
+    width: 170px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 40);
+    font-weight: 600;
+    background-color: rgb(255, 255, 40);
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boton:hover {
+    transform: scale(1.03);
 }
+
+.contenedor-item {
+    text-align: center;
+}
+
+.simpsons-img2 {
+    width: 300px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.btnInicio {
+    margin-top: 35px;
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 40);
+    font-weight: 600;
+    background-color: rgb(255, 255, 40);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btnInicio:hover {
+    transform: scale(1.03);
+}
+
+.tarjeta {
+    background-color: rgba(240, 248, 255, 0.664);
+    width: 400px;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nombre {
+    padding-bottom: 25px;
+}
+
+.imgPersonaje {
+    padding-bottom: 25px;
+}
+
+.btn-frase {
+    margin-top: 35px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 40);
+    font-weight: 600;
+    background-color: rgb(255, 255, 40);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-frase:hover {
+    transform: scale(1.03);
+}
+
+.frase {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 350px) {
+    .simpsons-img2 {
+        width: 240px;
+    }
+
+    .tarjeta {
+        width: 260px;
+    }
+
+    .imgPersonaje {
+        width: 220px;
+    }
+} 
+
